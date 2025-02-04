@@ -16,13 +16,13 @@ const App: React.FC = () => (
     />
     <br />
     <Alert
-      message="Error Text"
+      message="提示"
       showIcon
-      description="Error Description Error Description Error Description Error Description"
+      description="檔案匯出失敗，請重新執行。"
       type="error"
       action={
         <Button size="small" danger>
-          Detail
+          確認
         </Button>
       }
     />
